@@ -1,0 +1,12 @@
+[
+  {
+    "path": "raw/eia_co2_sector_2024.xlsx",
+    "sha256": "37b8d1e2f9e84725712b6de9d7a53c338d373abec94f3b15613a17f69ba9d2d0",
+    "matches_manifest": true
+  },
+  {
+    "path": "raw/eia_energy_indicators_2024.csv",
+    "sha256": "0e02c46b895de24f04284bfe11f81124fbcdd7d7e245fb397718645e889ed98c",
+    "matches_manifest": true
+  }
+]

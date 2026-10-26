@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "scope": "Fresh-directory offline reproduction from the two bundled EIA raw inputs; existing generated panel, audits, result tables and figures removed before the run",
+  "command": "python run_all.py",
+  "working_directory_independence": true,
+  "network_required": false,
+  "input_panel_rows": 1250,
+  "input_panel_byte_identical_to_original": true,
+  "all_six_result_csvs_byte_identical_to_original": true,
+  "maximum_numeric_absolute_difference": 0.0,
+  "result_comparisons": [
+    {
+      "path": "analysis/results/annual_contrasts.csv",
+      "rows": 50,
+      "columns": 12,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "5323c77df515ad3d95f0bb405eb0784ffdd2806f32b3461e452f05698f5e5a2a"
+    },
+    {
+      "path": "analysis/results/endpoint_results.csv",
+      "rows": 3,
+      "columns": 21,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "3a1f29a30f678086d50b63cf7018a54b6b939ae0aa0846a4af0ad9191a2a3cd0"
+    },
+    {
+      "path": "analysis/results/group_year_summary.csv",
+      "rows": 150,
+      "columns": 7,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "7865d16ddd36bccd82e0976a9d3b9cf0d249e763a4fc066b119bb5e9ea563bb1"
+    },
+    {
+      "path": "analysis/results/pretrend_diagnostics.csv",
+      "rows": 2,
+      "columns": 6,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "2ea689ac41aec5523e43bf8c3b1b1b2fd6018bc91c643c93d3be68980f2720dd"
+    },
+    {
+      "path": "analysis/results/sensitivity_results.csv",
+      "rows": 1,
+      "columns": 20,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "7759811dc082433cd33a86f0bde4693785bd7795e3156caf0be5ab4dd910fca2"
+    },
+    {
+      "path": "analysis/results/state_window_changes.csv",
+      "rows": 172,
+      "columns": 6,
+      "byte_identical_to_original": true,
+      "max_numeric_absolute_difference": 0.0,
+      "sha256": "8f0c3265cbc0510cd8c8646a2b08a4fb015bd7188f455ee60066450d87c466ea"
+    }
+  ],
+  "figure_plot_data_byte_identical_to_original": true,
+  "public_figure_repeatability": {
+    "figure2_annual_contrasts.svg": true,
+    "figure2_annual_contrasts.png": true,
+    "figure2_plotdata.csv": true,
+    "figure1_electricity_paths.svg": true,
+    "figure1_electricity_paths.png": true,
+    "figure1_plotdata.csv": true
+  },
+  "scientific_specification_sections_exactly_equal": [
+    "design_id",
+    "created_utc",
+    "data",
+    "sample",
+    "policy",
+    "estimator",
+    "endpoints",
+    "inference",
+    "annual_diagnostics",
+    "sensitivity",
+    "reporting",
+    "sources_file",
+    "policy_calendar_file"
+  ],
+  "analysis_ast_equal_after_hash_cli_and_lf_serialization_normalization": true,
+  "original_source_tree_unchanged": true,
+  "raw_input_sha256": {
+    "eia_co2_sector_2024.xlsx": "37b8d1e2f9e84725712b6de9d7a53c338d373abec94f3b15613a17f69ba9d2d0",
+    "eia_energy_indicators_2024.csv": "0e02c46b895de24f04284bfe11f81124fbcdd7d7e245fb397718645e889ed98c"
+  },
+  "original_specification_sha256": "59d9fde62fa2da07f82f521ca1f9e64b3a71c14f8bde3549b48bcb5966115700",
+  "public_specification_sha256": "6b8ba766551f89fd0c63f74014a55da456bbd4f83ae520e5ca19c6c12d1bc1b3",
+  "differences_from_original": [
+    "Only disclosed nonscientific specification/workflow metadata, runner hash/CLI and explicit LF CSV serialization were changed",
+    "Unused original California predictors and their extraction/audit outputs are omitted",
+    "Figure paths and provenance reference the public support table; SVG timestamps and identifiers are deterministic",
+    "No national panel values, six result CSV values, model settings or scientific plotted-data values differ"
+  ],
+  "california_scm_rerun": false,
+  "publication_performed_by_this_validation": false,
+  "git_line_ending_protection": {
+    "core_autocrlf_true_index_and_checkout_verified": true,
+    "verified_guarded_files": [
+      "inputs/raw/eia_co2_sector_2024.xlsx",
+      "inputs/raw/eia_energy_indicators_2024.csv",
+      "inputs/data/us_state_sector_co2_2000_2024.csv",
+      "design/frozen_design_v1.json",
+      "analysis/results/sensitivity_results.csv",
+      "analysis/results/endpoint_results.csv",
+      "analysis/results/pretrend_diagnostics.csv",
+      "analysis/results/annual_contrasts.csv",
+      "analysis/results/group_year_summary.csv",
+      "analysis/results/state_window_changes.csv"
+    ],
+    "root_gitattributes_preserved": true
+  },
+  "figure_visual_inspection": {
+    "both_pngs_checked": true,
+    "labels_and_legends_legible": true,
+    "no_visible_clipping": true,
+    "scientific_scales_unchanged": true
+  },
+  "explicit_lf_csv_serialization": true
+}

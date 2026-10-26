@@ -1,0 +1,22 @@
+{
+  "checked_date_utc": "2026-10-26",
+  "scope": "National 50-state sectoral CO2 panel; official EIA inputs only",
+  "files": [
+    {
+      "path": "raw/eia_co2_sector_2024.xlsx",
+      "bytes": 188872,
+      "sha256": "37b8d1e2f9e84725712b6de9d7a53c338d373abec94f3b15613a17f69ba9d2d0",
+      "source_url": "https://www.eia.gov/state/seds/sep_sum/html/xls/co2_sector.xlsx",
+      "role": "Unmodified official EIA source; archived 2024F vintage",
+      "checked_date_utc": "2026-10-26"
+    },
+    {
+      "path": "raw/eia_energy_indicators_2024.csv",
+      "bytes": 614451,
+      "sha256": "0e02c46b895de24f04284bfe11f81124fbcdd7d7e245fb397718645e889ed98c",
+      "source_url": "https://www.eia.gov/state/seds/sep_indicators/energy_indicators.csv",
+      "role": "Unmodified official EIA source; archived 2024F vintage",
+      "checked_date_utc": "2026-10-26"
+    }
+  ]
+}

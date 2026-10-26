@@ -1,0 +1,348 @@
+{
+  "design_id": "US-CARBON-RGGI-20261026-v1",
+  "status": "Fixed before national panel outcome fits; retained for exact reproduction, not externally preregistered.",
+  "created_utc": "2026-10-26T13:26:58.539008+00:00",
+  "approval_record": "The bounded common-cohort design and collapsed-state estimator were fixed on 2026-10-26 before new outcome fits. Conventional HC1 t(G-2) confidence intervals supersede a proposed bootstrap-t endpoint interval.",
+  "prior_knowledge_disclosure": "Earlier California synthetic-control work and its approximate -56% power gap and placebo p-value range 0.081–0.135 were known. This specification was prospectively fixed for the national RGGI analysis, but was not externally preregistered and does not imply complete outcome blindness. Preparation of this specification involved no new national panel outcome fitting; input inspection was limited to the CSV header.",
+  "data": {
+    "path": "../inputs/data/us_state_sector_co2_2000_2024.csv",
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "universe": "50 states; District of Columbia and territories excluded",
+    "required_columns": [
+      "stateabbr",
+      "state",
+      "year",
+      "population_thousands",
+      "electricity_co2_mmt",
+      "industry_co2_mmt",
+      "electricity_co2_tpc",
+      "industry_co2_tpc"
+    ],
+    "outcomes": {
+      "power": "electricity_co2_tpc",
+      "industry": "industry_co2_tpc"
+    },
+    "units": "metric tonnes CO2 per resident per year; CO2_mmt * 1000 / population_thousands",
+    "quality_gate": [
+      "exactly 1250 unique state-year rows",
+      "all 50 listed states for every year",
+      "no missing or nonfinite selected outcome or population",
+      "population strictly positive; emissions nonnegative",
+      "provided per-capita fields agree with unit conversion at atol 1e-8, rtol 1e-8"
+    ],
+    "missingness_rule": "Stop and report; no imputation, outcome-based state dropping, winsorization or donor replacement."
+  },
+  "sample": {
+    "treated": [
+      "CT",
+      "DE",
+      "MA",
+      "MD",
+      "ME",
+      "NH",
+      "NY",
+      "RI",
+      "VT"
+    ],
+    "comparison": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NM",
+      "NV",
+      "OH",
+      "OK",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "excluded": [
+      "CA",
+      "CO",
+      "NJ",
+      "OR",
+      "PA",
+      "VA",
+      "WA"
+    ],
+    "n_treated": 9,
+    "n_comparison": 34,
+    "n_total": 43,
+    "sort_order": "state abbreviation ASCII ascending",
+    "comparison_definition": "States without the screened mandatory carbon-trading programs or PA RGGI announcement/litigation exposure; not policy-free states. Same sample across power and industry.",
+    "excluded_reasons": {
+      "CA": "Separate broad cap-and-trade from 2013; existing secondary case only.",
+      "WA": "Separate cap-and-invest from 2023; too short for the same mature exposure comparison.",
+      "NJ": "RGGI 2009–2011 and 2020 onward; reversal/reentry.",
+      "VA": "RGGI 2021–2023 within study; reversal.",
+      "OR": "CPP fossil-fuel/industrial exposure 2022–2023 and legal transition 2024; electricity generation excluded; remove whole state to preserve cross-sector pool, not because power is directly covered.",
+      "CO": "Manufacturing GEMM obligations and tradable compliance framework, including 2024 obligations; not a direct power-sector carbon market. Remove to preserve cross-sector pool.",
+      "PA": "Announced RGGI rulemaking 2019; 2022 rule enjoined, no operating allowance-auction treatment. Anticipation and litigation exposure exclude from controls."
+    }
+  },
+  "policy": {
+    "cohort_year": 2009,
+    "baseline_years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004
+    ],
+    "anticipation_years": [
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "anticipation_reason": "MOU announced December 2005; all four years excluded from baseline and primary post average, conservatively allowing advance responses. Discussions from 2003 addressed by fixed early-baseline sensitivity.",
+    "effect_scope": "RGGI-associated power-policy regime including cap revisions and correlated state policies; not an isolated carbon-price structural effect. MA separate cap from 2018 is retained and disclosed."
+  },
+  "estimator": {
+    "weights": "Equal weight for each state within treated and comparison groups; equal weight per year in each window. No population weighting.",
+    "formula": "d_i(S,B)=mean_{t in S} y_it - mean_{b in B} y_ib; d_i=alpha+tau*T_i+u_i by OLS. tau=mean_T(d_i)-mean_C(d_i).",
+    "interpretation": "Common-cohort average annual level contrast in tonnes CO2/resident; equals balanced panel DiD for the chosen pre/post windows. No already-treated controls; no pooled staggered TWFE.",
+    "controls": "Intercept and fixed treated indicator only; no contemporaneous mediators, time-varying covariates, matching, synthetic weights, state trends or selected transformations.",
+    "causal_assumptions": [
+      "parallel untreated changes between the fixed groups relative to baseline",
+      "no policy anticipation in the selected baseline",
+      "no consequential interference across treatment/comparison states",
+      "no differential concurrent policies or region-specific shocks driving the contrast"
+    ],
+    "causal_language": "Comparative association unless assumptions can be substantively supported; statistical precision alone is not causal validation."
+  },
+  "endpoints": [
+    {
+      "id": "power_2009_2024",
+      "role": "primary",
+      "outcome": "power",
+      "post_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "label": "Mean annual power CO2/resident contrast, 2009–2024"
+    },
+    {
+      "id": "industry_2009_2024",
+      "role": "secondary",
+      "outcome": "industry",
+      "post_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "label": "Indirect industrial-sector comparison, 2009–2024; not direct RGGI treatment effect"
+    },
+    {
+      "id": "power_2020_2024",
+      "role": "secondary",
+      "outcome": "power",
+      "post_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "label": "Long-run power contrast, 2020–2024"
+    }
+  ],
+  "inference": {
+    "conditioning": "All p-values and intervals condition on independent state-level shocks after common changes. RGGI is one coordinated regional policy, not nine independent adoptions. No valid region-policy randomization distribution is available.",
+    "alpha": 0.05,
+    "bootstrap_draws": 9999,
+    "seed": 20261026,
+    "rng": "numpy.random.Generator(numpy.random.PCG64(20261026))",
+    "weights": "Generate one 9999 x 43 matrix with rng.choice([-1.0,1.0], size=(9999,43)); ordered states fixed; reuse identically across endpoints, diagnostics, bands and early-baseline sensitivity.",
+    "variance": "HC1 = [N/(N-K)] (XTX)^(-1) sum_i x_i x_i^T u_i^2 (XTX)^(-1), N=43, K=2. Each collapsed observation is one state; equivalent state-cluster CV1 for this collapsed regression.",
+    "conventional_ci": "tau_hat +/- t_(0.975,N-2) * se_HC1, df=41. Label conventional HC1 interval, never bootstrap interval.",
+    "conventional_p": "2*t.sf(abs(tau_hat/se_HC1), df=N-2); supplementary, not used for Holm.",
+    "wcr_variant": "WCR-CV1: restricted raw residuals; no leverage correction; Rademacher state weights; unrestricted bootstrap OLS; HC1 studentization in original and bootstrap samples.",
+    "wcr_algorithm": [
+      "For H0:tau=0, constrained fitted value is alpha0=mean(d).",
+      "Restricted residual e0_i=d_i-alpha0. For draw b set d*_i=alpha0+v_bi*e0_i.",
+      "Fit [1,T] by OLS to each d*; calculate t*_b=tau*_b/se*_HC1.",
+      "Observed t=tau_hat/se_HC1. Two-sided p=(1+sum_b[abs(t*_b)>=abs(t)])/(9999+1).",
+      "No draw replacement or seed changes; nonfinite variance/statistic stops the affected inference and records a numerical failure."
+    ],
+    "multiple_testing": "All three endpoint raw WCR p-values plus Holm-adjusted p-values. Sort raw p ascending (tie by endpoint id), multiply by 3,2,1, apply cumulative maximum and cap at 1, map back. Primary outcome remains labeled primary. Sensitivity/diagnostic p-values are explicitly exploratory and outside this fixed endpoint family. No star-driven selection."
+  },
+  "annual_diagnostics": {
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "outcomes": [
+      "power",
+      "industry"
+    ],
+    "formula": "For each outcome and year, d_it=y_it-mean_B(y_i). Fit d_it=alpha_t+tau_t*T_i. Display all 25 contrasts, including baseline 2000–2004 and anticipation 2005–2008.",
+    "bands": "95% simultaneous max-|t| band across all 50 outcome-year coefficients (25 x 2), conditional on state independence.",
+    "band_algorithm": [
+      "Fit unrestricted [1,T] for each of 50 d vectors; store coefficient and raw residual matrix E.",
+      "For each common state-weight draw, d*_it = fitted_it + v_bi*E_it; fit unrestricted OLS and compute t*_{bt}=(tau*_{bt}-tau_hat_t)/se*_HC1,t.",
+      "M_b=max over all 50 absolute studentized statistics. Critical q is the empirical 0.95 quantile using numpy.quantile(method=\"higher\").",
+      "Report tau_hat_t +/- q*se_HC1,t for every year/outcome. These are unrestricted wild-bootstrap-t simultaneous bands, not the WCR test or conventional pointwise interval."
+    ],
+    "pretrend_test": "For each outcome separately, test the five 2000–2004 annual contrasts jointly with max-|t|. Restricted model for each annual d has intercept only. Apply common state wild weights, refit unrestricted [1,T], and compare bootstrap max-|t| to observed max-|t| using plus-one p. Dependence/linear redundancy among the five baseline contrasts is retained automatically; do not invert a singular five-coefficient covariance.",
+    "interpretation": "Low-powered diagnostics; nonrejection is not proof of parallel trends. Report regardless of result. Pretest results cannot change sample, baseline, outcomes or preferred specification. Anticipation-period contrasts are not untreated pretrends."
+  },
+  "sensitivity": [
+    {
+      "id": "early_baseline_power_2009_2024",
+      "baseline_years": [
+        2000,
+        2001,
+        2002
+      ],
+      "post_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "outcome": "power",
+      "formula": "Same fixed sample, outcome, weights, estimator, HC1 CI and WCR p as primary; only baseline becomes 2000–2002.",
+      "reason": "RGGI discussions began in 2003; fixed before fits.",
+      "status": "Sensitivity, not a replacement primary or additional confirmatory claim."
+    }
+  ],
+  "reporting": {
+    "required_files": [
+      "endpoint_results.csv",
+      "annual_contrasts.csv",
+      "pretrend_diagnostics.csv",
+      "sensitivity_results.csv",
+      "group_year_summary.csv",
+      "state_window_changes.csv",
+      "analysis_manifest.json",
+      "validation.json"
+    ],
+    "effect_magnitude": "Report absolute tonnes/resident/year; optional descriptive scale =100*tau/treated baseline mean, labeled percent of observed baseline, not percent causal reduction or log effect. Do not fit transformed outcomes.",
+    "regional_limits": [
+      "Common Northeast energy-market changes, gas/coal substitution, plant retirements, financial crisis and COVID can produce regional differential trends.",
+      "Cross-state power dispatch/imports violate simple no-interference assumptions; production-side EIA emissions cannot establish consumption-footprint reduction or leakage.",
+      "Industry is an indirect comparison and may respond to electricity prices, policy spillovers or unrelated industrial composition.",
+      "EIA energy-related industrial CO2 does not equal all industrial-process GHG emissions; RGGI facility coverage does not equal the entire EIA electric-power sector.",
+      "Other state climate/energy measures remain in the comparison pool and treatment regime.",
+      "No region-placebo pseudo-p-value will be presented as randomized evidence; national state exchangeability is not credible."
+    ],
+    "california_secondary": "Preserve the previously specified SCM case and original placebo bounds as separate secondary evidence; no retuning, pooling into RGGI estimate or p-value upgrading."
+  },
+  "sources_file": "verified_sources.json",
+  "policy_calendar_file": "policy_year_calendar_2000_2024.csv",
+  "change_control": "Do not overwrite this fixed specification after outcomes. Any indispensable correction requires a separately dated amendment with rationale, disclosure of outcome knowledge, a new hash, and independent review. No outcome-responsive model search.",
+  "study_title": "Carbon Trading and Sectoral Emissions: Evidence from U.S. States"
+}

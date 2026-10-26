@@ -1,0 +1,62 @@
+[
+  {
+    "path": "audit/coverage_by_state.csv",
+    "bytes": 1804,
+    "sha256": "7dc5b4d1af6c8ff5b21576dcc9ce79104590c9ad3c2b32e064f1b7f9ade70a61"
+  },
+  {
+    "path": "audit/coverage_by_year.csv",
+    "bytes": 359,
+    "sha256": "1a6990c9e5a004b39239c1ffe6fcd8c59e2c630e2090645a1defc2a55305b581"
+  },
+  {
+    "path": "audit/largest_relative_annual_changes.csv",
+    "bytes": 2487,
+    "sha256": "d55bc3c9be72fa3229552f0b8c586935927e97416c301a16b7d7ce215dfb4d2e"
+  },
+  {
+    "path": "audit/missing_state_years.csv",
+    "bytes": 15,
+    "sha256": "de3e8fc8deb1a6fcc9312958d85efd9bb02653ea669dd50ffcd6336d25a44c71"
+  },
+  {
+    "path": "audit/quality_summary.json",
+    "bytes": 1315,
+    "sha256": "e63d6a72bde237bf4a13b77dacd5168a747dc1682f139bf91b1976388a6f7811"
+  },
+  {
+    "path": "audit/raw_hash_verification.json",
+    "bytes": 337,
+    "sha256": "cb8dcebd12c5c555f68f76fe301aeb52c249068a4cb6d519a90ea4ff355d42ce"
+  },
+  {
+    "path": "audit/source_control_totals.csv",
+    "bytes": 12001,
+    "sha256": "748d8c8a7711fbee1dc6c24fe4ff0672bd6842acc1298d3f800e3acf7826e7ae"
+  },
+  {
+    "path": "audit/validation_checks.csv",
+    "bytes": 743,
+    "sha256": "b01b638cefe1152125a2603bda346435af8de69bd2abaeeb254fcd7a6715dc64"
+  },
+  {
+    "path": "audit/variable_profile.csv",
+    "bytes": 360,
+    "sha256": "0ec53b55ba5c42372b0087b712e893e0ae353753e546ab09e7a4a6d7a5b5a0d2"
+  },
+  {
+    "path": "audit/zero_outcomes.csv",
+    "bytes": 52,
+    "sha256": "50806c986f61fd0d4b10afbf538132d3d45f660429ee01a98839fdee7d78167b"
+  },
+  {
+    "path": "data/us_state_sector_co2_2000_2024.csv",
+    "bytes": 93083,
+    "sha256": "c247750b4efb04a9e1718c298a792f2bec840635ebfde8f42e2672bba4c62916"
+  },
+  {
+    "path": "receipts/source_metadata.json",
+    "bytes": 1414,
+    "sha256": "06a3683739317ed30eea6d5c0a825bf4853473024609761dbf691c4f121852b1"
+  }
+]

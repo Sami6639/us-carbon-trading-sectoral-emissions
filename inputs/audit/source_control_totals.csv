@@ -1,0 +1,76 @@
+year,field,fifty_states_sum,dc,US_source,fifty_plus_DC_minus_US,interpretation
+2000,electricity_co2_mmt,2296.278,0.172,2296.449,0.0009999999997489795,independently rounded source components and national totals; no forced reconciliation
+2001,electricity_co2_mmt,2258.505,0.157,2258.661,0.0010000000002037268,independently rounded source components and national totals; no forced reconciliation
+2002,electricity_co2_mmt,2272.395,0.269,2272.664,-4.547473508864641e-13,independently rounded source components and national totals; no forced reconciliation
+2003,electricity_co2_mmt,2303.793,0.083,2303.878,-0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2004,electricity_co2_mmt,2334.763,0.056,2334.819,0.0,independently rounded source components and national totals; no forced reconciliation
+2005,electricity_co2_mmt,2400.31,0.235,2400.544,0.0010000000002037268,independently rounded source components and national totals; no forced reconciliation
+2006,electricity_co2_mmt,2344.653,0.1,2344.75,0.0029999999997016857,independently rounded source components and national totals; no forced reconciliation
+2007,electricity_co2_mmt,2410.915,0.085,2410.998,0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2008,electricity_co2_mmt,2359.594,0.07,2359.667,-0.0029999999997016857,independently rounded source components and national totals; no forced reconciliation
+2009,electricity_co2_mmt,2145.681,0.036,2145.715,0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2010,electricity_co2_mmt,2259.442,0.186,2259.629,-0.0009999999997489795,independently rounded source components and national totals; no forced reconciliation
+2011,electricity_co2_mmt,2158.747,0.172,2158.916,0.0029999999997016857,independently rounded source components and national totals; no forced reconciliation
+2012,electricity_co2_mmt,2023.905,0.011,2023.917,-0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2013,electricity_co2_mmt,2038.752,0.0,2038.751,0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2014,electricity_co2_mmt,2037.784,0.0,2037.786,-0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2015,electricity_co2_mmt,1901.033,0.0,1901.031,0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2016,electricity_co2_mmt,1809.237,0.0,1809.238,-0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2017,electricity_co2_mmt,1732.303,0.0,1732.304,-0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2018,electricity_co2_mmt,1754.152,0.0,1754.153,-0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2019,electricity_co2_mmt,1607.618,0.0,1607.617,0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2020,electricity_co2_mmt,1439.82,0.0,1439.819,0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2021,electricity_co2_mmt,1541.442,0.0,1541.446,-0.0039999999999054126,independently rounded source components and national totals; no forced reconciliation
+2022,electricity_co2_mmt,1532.042,0.0,1532.04,0.0019999999999527063,independently rounded source components and national totals; no forced reconciliation
+2023,electricity_co2_mmt,1415.174,0.0,1415.175,-0.0009999999999763531,independently rounded source components and national totals; no forced reconciliation
+2024,electricity_co2_mmt,1421.708,0.0,1421.714,-0.005999999999858119,independently rounded source components and national totals; no forced reconciliation
+2000,industry_co2_mmt,1070.002,0.025,1077.455,-7.427999999999884,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2001,industry_co2_mmt,1048.827,0.064,1052.214,-3.3229999999998654,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2002,industry_co2_mmt,1027.8,0.067,1034.772,-6.904999999999973,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2003,industry_co2_mmt,1025.036,0.103,1030.881,-5.741999999999962,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2004,industry_co2_mmt,1053.037,0.071,1068.767,-15.659000000000106,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2005,industry_co2_mmt,1009.251,0.059,1014.33,-5.0200000000000955,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2006,industry_co2_mmt,1014.608,0.059,1021.579,-6.912000000000035,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2007,industry_co2_mmt,1004.384,0.042,1007.288,-2.8619999999999663,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2008,industry_co2_mmt,969.363,0.037,974.034,-4.633999999999901,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2009,industry_co2_mmt,857.174,0.034,854.501,2.7069999999999936,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2010,industry_co2_mmt,923.625,0.017,922.937,0.7050000000000409,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2011,industry_co2_mmt,927.8100000000001,0.024,929.094,-1.259999999999991,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2012,industry_co2_mmt,940.97,0.024,941.449,-0.45499999999992724,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2013,industry_co2_mmt,963.052,0.021,961.092,1.9809999999999945,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2014,industry_co2_mmt,973.955,0.026,971.53,2.451000000000022,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2015,industry_co2_mmt,947.579,0.023,945.58,2.0219999999999345,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2016,industry_co2_mmt,945.704,0.031,943.564,2.1709999999999354,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2017,industry_co2_mmt,964.698,0.02,961.467,3.2509999999999764,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2018,industry_co2_mmt,1001.307,0.022,998.412,2.91700000000003,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2019,industry_co2_mmt,1010.118,0.023,1007.738,2.40300000000002,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2020,industry_co2_mmt,955.381,0.024,953.933,1.47199999999998,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2021,industry_co2_mmt,983.066,0.025,977.552,5.538999999999987,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2022,industry_co2_mmt,967.204,0.025,960.885,6.343999999999937,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2023,industry_co2_mmt,963.859,0.024,960.196,3.687000000000012,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2024,industry_co2_mmt,955.3629999999999,0.019,951.151,4.2309999999999945,US industrial CO2 includes coal coke net imports not allocated to states; do not force state sums to national totals
+2000,population_thousands,281593.0,572.0,282162.0,3.0,independently rounded source components and national totals; no forced reconciliation
+2001,population_thousands,284397.0,575.0,284969.0,3.0,independently rounded source components and national totals; no forced reconciliation
+2002,population_thousands,287050.0,573.0,287625.0,-2.0,independently rounded source components and national totals; no forced reconciliation
+2003,population_thousands,289539.0,569.0,290108.0,0.0,independently rounded source components and national totals; no forced reconciliation
+2004,population_thousands,292239.0,568.0,292805.0,2.0,independently rounded source components and national totals; no forced reconciliation
+2005,population_thousands,294946.0,567.0,295517.0,-4.0,independently rounded source components and national totals; no forced reconciliation
+2006,population_thousands,297813.0,571.0,298380.0,4.0,independently rounded source components and national totals; no forced reconciliation
+2007,population_thousands,300658.0,574.0,301231.0,1.0,independently rounded source components and national totals; no forced reconciliation
+2008,population_thousands,303512.0,580.0,304094.0,-2.0,independently rounded source components and national totals; no forced reconciliation
+2009,population_thousands,306184.0,592.0,306772.0,4.0,independently rounded source components and national totals; no forced reconciliation
+2010,population_thousands,308726.0,605.0,309327.0,4.0,independently rounded source components and national totals; no forced reconciliation
+2011,population_thousands,310966.0,620.0,311583.0,3.0,independently rounded source components and national totals; no forced reconciliation
+2012,population_thousands,313244.0,636.0,313878.0,2.0,independently rounded source components and national totals; no forced reconciliation
+2013,population_thousands,315414.0,652.0,316060.0,6.0,independently rounded source components and national totals; no forced reconciliation
+2014,population_thousands,317724.0,664.0,318386.0,2.0,independently rounded source components and national totals; no forced reconciliation
+2015,population_thousands,320060.0,677.0,320739.0,-2.0,independently rounded source components and national totals; no forced reconciliation
+2016,population_thousands,322382.0,688.0,323072.0,-2.0,independently rounded source components and national totals; no forced reconciliation
+2017,population_thousands,324429.0,697.0,325122.0,4.0,independently rounded source components and national totals; no forced reconciliation
+2018,population_thousands,326134.0,704.0,326838.0,0.0,independently rounded source components and national totals; no forced reconciliation
+2019,population_thousands,327624.0,708.0,328330.0,2.0,independently rounded source components and national totals; no forced reconciliation
+2020,population_thousands,330906.0,671.0,331578.0,-1.0,independently rounded source components and national totals; no forced reconciliation
+2021,population_thousands,331431.0,670.0,332100.0,1.0,independently rounded source components and national totals; no forced reconciliation
+2022,population_thousands,333322.0,675.0,333996.0,1.0,independently rounded source components and national totals; no forced reconciliation
+2023,population_thousands,336071.0,683.0,336755.0,-1.0,independently rounded source components and national totals; no forced reconciliation
+2024,population_thousands,339313.0,691.0,340004.0,0.0,independently rounded source components and national totals; no forced reconciliation

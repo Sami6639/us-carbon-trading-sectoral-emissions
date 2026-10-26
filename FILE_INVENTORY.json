@@ -1,0 +1,411 @@
+{
+  "inventory_scope": "All public files except this inventory itself; excluded to avoid a self-referential checksum",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 326,
+      "sha256": "f3fbd9bdda34bbef70d892a8bfcf797f6089701447694adb758ec30921c2cae4",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "CALIFORNIA_BENCHMARK.md",
+      "size_bytes": 3183,
+      "sha256": "04efcc0dab488a1aad39e4d74bf62dd62a044cc402a775069ea10e307788c3b0",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "PUBLIC_EXPORT_MANIFEST.json",
+      "size_bytes": 3492,
+      "sha256": "78d28b0be0a35c677d2d28f938f7dcc5d0f3b1aa9955ccb419500635f3be2b5d",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6230,
+      "sha256": "56feac64876fa213ac7534763080f9fa71eea909904c795fd4359fad644d49fb",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "RIGHTS_AND_ATTRIBUTION.md",
+      "size_bytes": 1627,
+      "sha256": "affff67ef5670751948ea03a1160c5e01f865675410fc625180b2bee03dda3ee",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "SOURCES.md",
+      "size_bytes": 7403,
+      "sha256": "527e37dbf03b83763caab73fa9f5caa4b93261c6011c64fd67c93a5fa3b34cd0",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/.gitattributes",
+      "size_bytes": 67,
+      "sha256": "daad256fb20e0eba4da16aa6f8988a0bce3d4091a8c2aaf44b6b796955fd792e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/analysis_manifest.json",
+      "size_bytes": 1925,
+      "sha256": "aa16b19f0b6621359d1c2c71b6c6ac0bad1de83316470e036a633260326022e5",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/annual_contrasts.csv",
+      "size_bytes": 6806,
+      "sha256": "5323c77df515ad3d95f0bb405eb0784ffdd2806f32b3461e452f05698f5e5a2a",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/endpoint_results.csv",
+      "size_bytes": 1045,
+      "sha256": "3a1f29a30f678086d50b63cf7018a54b6b939ae0aa0846a4af0ad9191a2a3cd0",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/group_year_summary.csv",
+      "size_bytes": 7920,
+      "sha256": "7865d16ddd36bccd82e0976a9d3b9cf0d249e763a4fc066b119bb5e9ea563bb1",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/pretrend_diagnostics.csv",
+      "size_bytes": 358,
+      "sha256": "2ea689ac41aec5523e43bf8c3b1b1b2fd6018bc91c643c93d3be68980f2720dd",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/sensitivity_results.csv",
+      "size_bytes": 569,
+      "sha256": "7759811dc082433cd33a86f0bde4693785bd7795e3156caf0be5ab4dd910fca2",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/state_window_changes.csv",
+      "size_bytes": 11867,
+      "sha256": "8f0c3265cbc0510cd8c8646a2b08a4fb015bd7188f455ee60066450d87c466ea",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/results/validation.json",
+      "size_bytes": 483,
+      "sha256": "f0ab516cd800716fec81d76886ecf841d35729199c4499778ab5142bba6b236b",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "analysis/run_analysis.py",
+      "size_bytes": 11013,
+      "sha256": "dae8a9ea0168bb2d68776b4b61548d6ce1cd8410bef5ed185f9a359e6cb09a57",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "design/.gitattributes",
+      "size_bytes": 67,
+      "sha256": "daad256fb20e0eba4da16aa6f8988a0bce3d4091a8c2aaf44b6b796955fd792e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "design/frozen_design_v1.json",
+      "size_bytes": 14114,
+      "sha256": "6b8ba766551f89fd0c63f74014a55da456bbd4f83ae520e5ca19c6c12d1bc1b3",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "design/policy_year_calendar_2000_2024.csv",
+      "size_bytes": 297999,
+      "sha256": "b205a1000f5bda057f77a3ba958cb33261dae089369d56c59f318d5d145548b9",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "design/verified_sources.json",
+      "size_bytes": 5857,
+      "sha256": "5d0f24bf6409bdc6c3fa036e88e88f90442443a71eababbafb5ac7aa02e7792d",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "diagnostics/.gitattributes",
+      "size_bytes": 67,
+      "sha256": "daad256fb20e0eba4da16aa6f8988a0bce3d4091a8c2aaf44b6b796955fd792e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "diagnostics/additive_support_diagnostic.csv",
+      "size_bytes": 659,
+      "sha256": "a1d1422dd6042cb5677df88b3b6dfb29b32894dcb55f82a0fd50a38684aee9d4",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/.gitattributes",
+      "size_bytes": 67,
+      "sha256": "daad256fb20e0eba4da16aa6f8988a0bce3d4091a8c2aaf44b6b796955fd792e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/figure1_electricity_paths.png",
+      "size_bytes": 385801,
+      "sha256": "bbb4de6164a2bef495d1b9ac30f35ea01ebe73ce45f7b2b05e0225fd82b83d51",
+      "encoding": "binary",
+      "github_blob_encoding": "base64"
+    },
+    {
+      "path": "figures/figure1_electricity_paths.svg",
+      "size_bytes": 40174,
+      "sha256": "c4b6d65f7c1a58d1f2509e32755a645688c9f5ae1ed02f8281d82313cf5aa4bd",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/figure1_plotdata.csv",
+      "size_bytes": 8463,
+      "sha256": "d927f9b9da877a9ccbde01de48363328a47953d8a0e2381a7c06234ddd3ced42",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/figure2_annual_contrasts.png",
+      "size_bytes": 403349,
+      "sha256": "8fe6378cda083daae52b5213246aadd1ff2ecde74779c2b12d590b97fdd406b7",
+      "encoding": "binary",
+      "github_blob_encoding": "base64"
+    },
+    {
+      "path": "figures/figure2_annual_contrasts.svg",
+      "size_bytes": 35241,
+      "sha256": "f962fce25a5e4f3b897731af7b65943f85ac50d6be86fbd6096ccde9ad4adc28",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/figure2_plotdata.csv",
+      "size_bytes": 6806,
+      "sha256": "5323c77df515ad3d95f0bb405eb0784ffdd2806f32b3461e452f05698f5e5a2a",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/figure_provenance.json",
+      "size_bytes": 1896,
+      "sha256": "5c5b5d58041c7264c27b119a0e98c65069189928644c8ce4142259b84b689191",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "figures/plot_figures.py",
+      "size_bytes": 7864,
+      "sha256": "5e5c1a6de40515d25ced2a1410d79f0c0fd2018aefcad0183152f4535358ed8d",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/.gitattributes",
+      "size_bytes": 67,
+      "sha256": "daad256fb20e0eba4da16aa6f8988a0bce3d4091a8c2aaf44b6b796955fd792e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/DATA_DICTIONARY.md",
+      "size_bytes": 2911,
+      "sha256": "b8be4b6ac9964707a9d36143edae4a3b442bbc451ad1638bd654d55d48634044",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/README.md",
+      "size_bytes": 2367,
+      "sha256": "e064563cc13b9c8fef4cce13d206e7b25ecfeb151cbbf129206e6b799291fa4d",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/coverage_by_state.csv",
+      "size_bytes": 1804,
+      "sha256": "7dc5b4d1af6c8ff5b21576dcc9ce79104590c9ad3c2b32e064f1b7f9ade70a61",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/coverage_by_year.csv",
+      "size_bytes": 359,
+      "sha256": "1a6990c9e5a004b39239c1ffe6fcd8c59e2c630e2090645a1defc2a55305b581",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/independent_verification.json",
+      "size_bytes": 919,
+      "sha256": "93c9b05f45987f4ce7939211d73164db12a1a4ea017c5d697f7b714c41cf1c76",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/largest_relative_annual_changes.csv",
+      "size_bytes": 2487,
+      "sha256": "d55bc3c9be72fa3229552f0b8c586935927e97416c301a16b7d7ce215dfb4d2e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/missing_state_years.csv",
+      "size_bytes": 15,
+      "sha256": "de3e8fc8deb1a6fcc9312958d85efd9bb02653ea669dd50ffcd6336d25a44c71",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/quality_summary.json",
+      "size_bytes": 1315,
+      "sha256": "e63d6a72bde237bf4a13b77dacd5168a747dc1682f139bf91b1976388a6f7811",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/raw_hash_verification.json",
+      "size_bytes": 337,
+      "sha256": "cb8dcebd12c5c555f68f76fe301aeb52c249068a4cb6d519a90ea4ff355d42ce",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/source_control_totals.csv",
+      "size_bytes": 12001,
+      "sha256": "748d8c8a7711fbee1dc6c24fe4ff0672bd6842acc1298d3f800e3acf7826e7ae",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/validation_checks.csv",
+      "size_bytes": 743,
+      "sha256": "b01b638cefe1152125a2603bda346435af8de69bd2abaeeb254fcd7a6715dc64",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/variable_profile.csv",
+      "size_bytes": 360,
+      "sha256": "0ec53b55ba5c42372b0087b712e893e0ae353753e546ab09e7a4a6d7a5b5a0d2",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/audit/zero_outcomes.csv",
+      "size_bytes": 52,
+      "sha256": "50806c986f61fd0d4b10afbf538132d3d45f660429ee01a98839fdee7d78167b",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/data/us_state_sector_co2_2000_2024.csv",
+      "size_bytes": 93083,
+      "sha256": "c247750b4efb04a9e1718c298a792f2bec840635ebfde8f42e2672bba4c62916",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/raw/eia_co2_sector_2024.xlsx",
+      "size_bytes": 188872,
+      "sha256": "37b8d1e2f9e84725712b6de9d7a53c338d373abec94f3b15613a17f69ba9d2d0",
+      "encoding": "binary",
+      "github_blob_encoding": "base64"
+    },
+    {
+      "path": "inputs/raw/eia_energy_indicators_2024.csv",
+      "size_bytes": 614451,
+      "sha256": "0e02c46b895de24f04284bfe11f81124fbcdd7d7e245fb397718645e889ed98c",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/receipts/output_hashes.json",
+      "size_bytes": 1852,
+      "sha256": "49aeeff7dd422534dfc8083b0305f5d4587138e866f3a13f70c0c4ac058efb17",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/receipts/raw_manifest.json",
+      "size_bytes": 871,
+      "sha256": "8e71306a094d330a1f1d47c6e104137e85537dfe39e466a5dffed6e8152f375e",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/receipts/source_metadata.json",
+      "size_bytes": 1414,
+      "sha256": "06a3683739317ed30eea6d5c0a825bf4853473024609761dbf691c4f121852b1",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/scripts/build_panel.py",
+      "size_bytes": 13944,
+      "sha256": "22ee6082d4db0ae1084b73c10734ab2860ea0814f210ff510e8f78ac955fc652",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "inputs/scripts/verify_panel.py",
+      "size_bytes": 2786,
+      "sha256": "45a43328487029161812beb9398daccac0f25308497ae964b57275100a659b08",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "reference_checksums.json",
+      "size_bytes": 801,
+      "sha256": "917623cd23c49956a2d4a6c02b9d86142c2e7b393a72742c1264c004a36a1200",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 76,
+      "sha256": "7764a887587a08797b8f5a33284a55bc1693a63032f34fdc3061171634c5399c",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "run_all.py",
+      "size_bytes": 1338,
+      "sha256": "41bec174a1398927b12765f64934e7cc5b2f097ba1efa6bdc89988180b9acbd1",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    },
+    {
+      "path": "validation/public_reproduction_check.json",
+      "size_bytes": 4839,
+      "sha256": "e98918e557ef5813bfbc976381222ab1743d430b5a0386310f4df712cf44e0e3",
+      "encoding": "utf-8",
+      "github_blob_encoding": "utf-8"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "input_hash": "c247750b4efb04a9e1718c298a792f2bec840635ebfde8f42e2672bba4c62916",
+  "design_hash": "6b8ba766551f89fd0c63f74014a55da456bbd4f83ae520e5ca19c6c12d1bc1b3",
+  "exact_1250_rows": true,
+  "unique_state_year": true,
+  "complete_grid": true,
+  "finite_numeric": true,
+  "positive_population": true,
+  "nonnegative_emissions": true,
+  "electricity_conversion": true,
+  "industry_conversion": true,
+  "annual_primary_aggregation": true,
+  "baseline_annual_sums_zero": true
+}

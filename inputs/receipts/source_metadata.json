@@ -1,0 +1,42 @@
+{
+  "release_label": "Release date: June 26, 2026",
+  "next_update_label": "Next update: June 25, 2027",
+  "series": [
+    {
+      "field": "electricity_co2_mmt",
+      "sheet": "Electric power",
+      "msn": "TEEIE",
+      "source_unit": "Million metric tons CO2",
+      "status": "2024F",
+      "first_year": 1960,
+      "last_year": 2024,
+      "geographic_units": 52,
+      "numeric_cells": 3380
+    },
+    {
+      "field": "industry_co2_mmt",
+      "sheet": "Industrial",
+      "msn": "TEICE",
+      "source_unit": "Million metric tons CO2",
+      "status": "2024F",
+      "first_year": 1960,
+      "last_year": 2024,
+      "geographic_units": 52,
+      "numeric_cells": 3380
+    },
+    {
+      "field": "population_thousands",
+      "msn": "TPOPP",
+      "source_unit": "thousand resident persons, including Armed Forces",
+      "reference_date": "July 1",
+      "status": "2024F",
+      "first_year": 1960,
+      "last_year": 2024,
+      "geographic_units": 52,
+      "numeric_cells": 3380
+    }
+  ],
+  "status_meaning": "2024F: final historical estimates for the 2024 data cycle, not a forecast",
+  "conversion": "metric tonnes per resident = million metric tonnes * 1000 / thousand residents",
+  "source_precision": "Preserve all supplied values. Population thousand-person estimates and CO2 estimates retain source rounding; calculated per-capita digits do not imply additional measurement precision."
+}

@@ -1,0 +1,26 @@
+{
+  "source_design_id": "US-CARBON-RGGI-20261026-v1",
+  "source_files": {
+    "group_year_summary.csv": "7865d16ddd36bccd82e0976a9d3b9cf0d249e763a4fc066b119bb5e9ea563bb1",
+    "annual_contrasts.csv": "5323c77df515ad3d95f0bb405eb0784ffdd2806f32b3461e452f05698f5e5a2a"
+  },
+  "support_diagnostic_sha256": "a1d1422dd6042cb5677df88b3b6dfb29b32894dcb55f82a0fd50a38684aee9d4",
+  "figure1_definition": "Frozen equal-state group means. Index is a descriptive ratio of each annual group mean to its group 2000-2004 mean times 100. It is not a mean of state percentage changes or an alternative fitted outcome.",
+  "figure1_baselines_tpc": {
+    "comparison": 15.0983348728,
+    "treated": 3.593901726166
+  },
+  "figure2_definition": "Frozen annual contrasts and existing wild-unrestricted simultaneous 95% bands, one family of 50 coefficients across both sectors. Panel y-axis scales differ.",
+  "inference_warning": "All p-values and intervals condition on independent state-level shocks after common changes. RGGI is one coordinated regional policy, not nine independent adoptions. No valid region-policy randomization distribution is available.",
+  "no_new_models_fitted": true,
+  "export_width_inches": 6.6,
+  "font_requested": "Times New Roman; Liberation Serif fallback",
+  "files": {
+    "figure1_electricity_paths.png": "bbb4de6164a2bef495d1b9ac30f35ea01ebe73ce45f7b2b05e0225fd82b83d51",
+    "figure1_electricity_paths.svg": "c4b6d65f7c1a58d1f2509e32755a645688c9f5ae1ed02f8281d82313cf5aa4bd",
+    "figure1_plotdata.csv": "d927f9b9da877a9ccbde01de48363328a47953d8a0e2381a7c06234ddd3ced42",
+    "figure2_annual_contrasts.png": "8fe6378cda083daae52b5213246aadd1ff2ecde74779c2b12d590b97fdd406b7",
+    "figure2_annual_contrasts.svg": "f962fce25a5e4f3b897731af7b65943f85ac50d6be86fbd6096ccde9ad4adc28",
+    "figure2_plotdata.csv": "5323c77df515ad3d95f0bb405eb0784ffdd2806f32b3461e452f05698f5e5a2a"
+  }
+}

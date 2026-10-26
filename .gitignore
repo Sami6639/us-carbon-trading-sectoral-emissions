@@ -1,0 +1,27 @@
+# Python caches and local tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+# Exclude private documents, archives, credentials and authoring outputs.
+*.doc
+*.docx
+*.pdf
+*.zip
+*.tar
+*.gz
+*.rds
+*.RData
+*.pem
+*.key
+manuscript/
+coordination/
+private/

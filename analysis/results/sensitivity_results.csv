@@ -1,0 +1,2 @@
+estimate_tpc,se_hc1,ci95_low_conventional,ci95_high_conventional,t_statistic,df_conventional,p_conventional,p_wcr_raw,endpoint,role,outcome,baseline,post_window,n_treated,n_comparison,treated_baseline_mean_tpc,treated_post_mean_tpc,comparison_baseline_mean_tpc,comparison_post_mean_tpc,percent_of_observed_treated_baseline
+2.28339444604,0.795186426457,0.677482878671,3.88930601341,2.87152090386,41,0.00643763154743,0.0078,early_baseline_power_2009_2024,sensitivity,power,2000–2002,2009–2024,9,34,3.52629006461,1.90381365516,15.101041721,11.1951708655,64.7534492116

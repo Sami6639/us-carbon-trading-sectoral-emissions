@@ -1,0 +1,26 @@
+{
+  "rows": 1250,
+  "duplicate_keys": 0,
+  "read_only_XLSX_library": "openpyxl 3.1.5",
+  "electricity_co2_mmt_exact_source_cells": 1250,
+  "industry_co2_mmt_exact_source_cells": 1250,
+  "population_exact_source_cells": 1250,
+  "electricity_max_percapita_decimal_error": "8.91938250429E-15",
+  "industry_max_percapita_decimal_error": "4.38485804416E-15",
+  "byte_identical_offline_rebuild_files": [
+    "audit/coverage_by_state.csv",
+    "audit/coverage_by_year.csv",
+    "audit/largest_relative_annual_changes.csv",
+    "audit/missing_state_years.csv",
+    "audit/quality_summary.json",
+    "audit/raw_hash_verification.json",
+    "audit/source_control_totals.csv",
+    "audit/validation_checks.csv",
+    "audit/variable_profile.csv",
+    "audit/zero_outcomes.csv",
+    "data/us_state_sector_co2_2000_2024.csv",
+    "receipts/source_metadata.json"
+  ],
+  "all_checks_passed": true,
+  "model_fitting_performed": false
+}

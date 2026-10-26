@@ -1,0 +1,51 @@
+stateabbr,state,first_year,last_year,rows,missing_outcome_cells,missing_population_cells,electricity_zero_count,industry_zero_count
+AK,Alaska,2000,2024,25,0,0,0,0
+AL,Alabama,2000,2024,25,0,0,0,0
+AR,Arkansas,2000,2024,25,0,0,0,0
+AZ,Arizona,2000,2024,25,0,0,0,0
+CA,California,2000,2024,25,0,0,0,0
+CO,Colorado,2000,2024,25,0,0,0,0
+CT,Connecticut,2000,2024,25,0,0,0,0
+DE,Delaware,2000,2024,25,0,0,0,0
+FL,Florida,2000,2024,25,0,0,0,0
+GA,Georgia,2000,2024,25,0,0,0,0
+HI,Hawaii,2000,2024,25,0,0,0,0
+IA,Iowa,2000,2024,25,0,0,0,0
+ID,Idaho,2000,2024,25,0,0,0,0
+IL,Illinois,2000,2024,25,0,0,0,0
+IN,Indiana,2000,2024,25,0,0,0,0
+KS,Kansas,2000,2024,25,0,0,0,0
+KY,Kentucky,2000,2024,25,0,0,0,0
+LA,Louisiana,2000,2024,25,0,0,0,0
+MA,Massachusetts,2000,2024,25,0,0,0,0
+MD,Maryland,2000,2024,25,0,0,0,0
+ME,Maine,2000,2024,25,0,0,0,0
+MI,Michigan,2000,2024,25,0,0,0,0
+MN,Minnesota,2000,2024,25,0,0,0,0
+MO,Missouri,2000,2024,25,0,0,0,0
+MS,Mississippi,2000,2024,25,0,0,0,0
+MT,Montana,2000,2024,25,0,0,0,0
+NC,North Carolina,2000,2024,25,0,0,0,0
+ND,North Dakota,2000,2024,25,0,0,0,0
+NE,Nebraska,2000,2024,25,0,0,0,0
+NH,New Hampshire,2000,2024,25,0,0,0,0
+NJ,New Jersey,2000,2024,25,0,0,0,0
+NM,New Mexico,2000,2024,25,0,0,0,0
+NV,Nevada,2000,2024,25,0,0,0,0
+NY,New York,2000,2024,25,0,0,0,0
+OH,Ohio,2000,2024,25,0,0,0,0
+OK,Oklahoma,2000,2024,25,0,0,0,0
+OR,Oregon,2000,2024,25,0,0,0,0
+PA,Pennsylvania,2000,2024,25,0,0,0,0
+RI,Rhode Island,2000,2024,25,0,0,0,0
+SC,South Carolina,2000,2024,25,0,0,0,0
+SD,South Dakota,2000,2024,25,0,0,0,0
+TN,Tennessee,2000,2024,25,0,0,0,0
+TX,Texas,2000,2024,25,0,0,0,0
+UT,Utah,2000,2024,25,0,0,0,0
+VA,Virginia,2000,2024,25,0,0,0,0
+VT,Vermont,2000,2024,25,0,0,0,0
+WA,Washington,2000,2024,25,0,0,0,0
+WI,Wisconsin,2000,2024,25,0,0,0,0
+WV,West Virginia,2000,2024,25,0,0,0,0
+WY,Wyoming,2000,2024,25,0,0,0,0

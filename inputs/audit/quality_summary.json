@@ -1,0 +1,34 @@
+{
+  "panel": "us_state_sector_co2_2000_2024.csv",
+  "grain": "state-year",
+  "states": 50,
+  "years": [
+    2000,
+    2024
+  ],
+  "rows": 1250,
+  "duplicate_keys": 0,
+  "missing_keys": 0,
+  "missing_outcome_cells": 0,
+  "missing_population_cells": 0,
+  "zero_outcome_cells": 0,
+  "zero_observations": [],
+  "validation_checks_passed": 19,
+  "source_vintage": "EIA SEDS 2024F released 2026-06-26; complete historical vintage",
+  "no_interpolation": true,
+  "no_forecasts": true,
+  "no_regressions": true,
+  "no_treatment_assignment": true,
+  "no_logs": true,
+  "main_panel_covariates": [],
+  "measurement_limits": [
+    "Energy-related fossil CO2, not all GHG or all industrial process emissions",
+    "Electricity emissions attributed to generation location, not electricity consumers",
+    "Industrial sector includes manufacturing, agriculture, mining and construction",
+    "US industrial total includes coal coke net imports not allocated to states, so state sums need not equal it",
+    "Zero policy: source zeros would be retained; none occur in the selected 50-state 2000-2024 panel",
+    "Full-vintage revised estimates are not real-time policy-era measurements",
+    "Per-capita outcomes can respond through population as well as emissions",
+    "No causal effect is estimated by this input package"
+  ]
+}
